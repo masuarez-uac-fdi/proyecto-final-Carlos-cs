@@ -1,0 +1,40 @@
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>SI</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="stylesheet" href="../css/menu.css">
+</head>
+<body >
+    <section id="contenedor">  
+     
+    <header>
+        <section id="menu">
+             <ul class="men">
+            <li class="item"><span>INICIO▾</span>
+                <ul class='features-men'>          
+                    <li><a href="../principal.html"> Productos</a></li>
+             </ul>         
+                 </li>
+            <li><a href="usuarios.html">Usuarios</a></li>
+                 <li><a href="existencias.html">Consultar Existencias</a></li>
+        </ul>
+
+        </section>
+        </header>
+    <section id="banner" >
+        
+    </section>
+        <h1>Ingresar usuarios</h1>
+    <div class="principal">
+       <form action="php/crud.php"  method="post" autocomplete="off">
+        <input type="text" name="user" placeholder="username" id="user" required>
+        <input type="text" name="pass" placeholder="Password" id="pass" required> 
+        <input type="submit" value="ingresar">   
+        </form>
+    </div>
+
+        </section>
+</body>
+    
+</html>

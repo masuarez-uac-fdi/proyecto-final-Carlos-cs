@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>CS UACAM</title>
+    <link rel="stylesheet" href="estilos/estilo.css">
+    <link rel="stylesheet" href="estilos/menu.css">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript">
+     $(document).ready(function(){
+         $('#cambio').click(function(){
+             $('body').css('background-image','url(imagenes/asian.jpg)');
+         });
+     });
+    </script>
+</head>
+<body >
+     <!-- <div class="fix" id="t"></div> -->
+    <section id="contenedor">  
+     
+    <header>
+        <section id="menu">
+             <ul class="men">
+            <li class="item"><span>INICIO▾</span>
+                <ul class='features-men'>          
+                    <li><a href='galeria.html'>Galeria</a></li>
+                    <li><a href='#'>Nosotros</a></li>
+                    <li><a href='#'>Membresia</a></li>
+                     <li><a href='#'>Noticias</a></li>
+             </ul>         
+                 </li>
+            <li><a href="#" id="cambio">Cambiar fondo</a></li>
+            
+                 <li><a href="index2.html">ADMINISTRATIVO</a></li>
+        </ul>
+
+        </section>
+        </header>
+    <section id="banner" >
+        
+    </section>
+    <section id="historia">
+        <article id="ar">La IEEE Computer Society es la principal fuente de información, inspiración y colaboración en informática e ingeniería. Conectando miembros en todo el mundo, la Computer Society capacita a las personas que avanzan en la tecnología al ofrecer herramientas para individuos en todas las etapas de sus carreras profesionales. Nuestros recursos confiables incluyen conferencias internacionales, publicaciones revisadas por pares, una biblioteca digital sólida, estándares reconocidos a nivel mundial y oportunidades de aprendizaje continuo.
+        Nos esforzamos por ser el proveedor líder de información técnica, servicios comunitarios y soporte personalizado para las comunidades de informática y tecnología del mundo, así como para celebrar las contribuciones de los profesionales de informática e ingeniería, que desarrollan nuevas tecnologías y aplicaciones para mejorar las vidas. de personas en todas partes</article>
+       
+    </section>
+    <section id="noticias">
+        <article id="noticia1">
+            <p></p>
+        </article>
+        <article id="noticia2"></article>
+        <article id="noticia3"></article>
+    </section>
+         <footer>
+             <button id="face" onclick="alerta()">
+             <script>
+                 function alerta(){
+                     alert("se dirige a facebook");
+                 }
+                 </script>
+             </button>
+             <div id="twt"></div>
+             <div id="ins"></div>
+             <div id="wat"></div>
+             
+    </footer>
+        </section>
+</body>
+    
+</html>
